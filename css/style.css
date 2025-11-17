@@ -20,7 +20,7 @@
 }
 
 nav {
-    background-color: #4776ec;
+    background-color: #2450c9;
     padding: 1rem;
 }
 
@@ -43,7 +43,7 @@ nav {
 }
 
 .nav-menu a:hover {
-    background-color: #3660bb;
+    background-color: #2b60d3;
 }
 /* Logo */
 
@@ -51,10 +51,10 @@ nav {
     display: flex;
     justify-content: space-between; /* Logo Left, menu right */
     align-items: center;
-    background-color: #4776ec;
+    background-color: #3c68d5;
 }
 .logo {
-    margin-left: 1rem;
+    padding-left: 1rem;
 }
 /* Main */
 main {
@@ -64,22 +64,33 @@ main {
 .head {
     padding: 3rem;
     text-align: center;
-    background-color: #f77575;
+    background-color: #dc4d4d;
 }
 h1 {
+    color: #ffeaea;
     font-size: 40px;
     padding-bottom: 1rem;
 }
 
 h2 {
+    color: #ffffff;
     font-size: 35px;
     padding-bottom: 1rem;
 }
+
+p {
+    font-weight: light;
+}
+
 /* Home */
 
 .home {
     padding-bottom: 2rem;
-    background-color: #ffffff;
+    background-color: #ffe6e6;
+}
+
+.home h2 {
+    color: #950a0a;
 }
 
 .home-top {
@@ -97,7 +108,11 @@ h2 {
 
 .history {
      padding-bottom: 2rem;
-     background-color: #f77575;
+     background-color: #dc4d4d;
+}
+
+.history h2 {
+    color: #ffeaea;
 }
 
 .history-top {
@@ -115,7 +130,11 @@ h2 {
 
 .voting {
     padding-bottom: 2rem;
-    background-color: #ffffff;
+    background-color: #ffe6e6;
+}
+
+.voting h2 {
+    color: #950a0a;
 }
 
 .voting-top {
@@ -133,7 +152,11 @@ h2 {
 
 .facts {
      padding-bottom: 2rem;
-     background-color: #f77575;
+     background-color: #dc4d4d;
+}
+
+.facts h2 {
+    color: #ffeaea;
 }
 
 .facts-top {
@@ -151,7 +174,11 @@ h2 {
 
 .matters {
     padding-bottom: 2rem;
-    background-color: #ffffff;
+    background-color: #ffe6e6;
+}
+
+.matters h2 {
+    color: #950a0a;
 }
 
 .matters-top {
@@ -169,13 +196,14 @@ h2 {
 
 footer {
     padding-top: 2rem;
-    background-color: #4776ec;
+    background-color: #dc4d4d;
     padding-bottom: 1rem;
 }
 
 footer p {
-    margin-left: 2rem;
+    margin: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-}
+    font-size: 25px;
+    color: white;
+
 }
